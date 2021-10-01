@@ -1,0 +1,72 @@
+[{
+    "title": "Vodafone Turkey",
+    "src": "thumb-vodafone.jpg",
+    "href": "https://www.vodafone.com.tr/",
+    "description1": "Created fully-responsive front-end code for ecommerce site for Vodafone Turkey, in line with corporate style guide.",
+    "description2": "Created wireframes, HTML/CSS/JS for product listings, product details, basket, checkout & confirmation emails.",
+    "linkText": "Visit web site",
+    "subtitle": "Ecommerce front end"
+},{
+        "title": "Localised",
+        "src": "thumb-localised.jpg",
+        "href": "https://www.localised.com/",
+        "description1": "Planned, wireframed and developed the web site for Localised (a global ecommerce service owned by Brandpath).",
+        "description2": "Created HTML/CSS/JS for site, delivered on-schedule, and integrated the design into a 3rd-party careers plugin.",
+        "linkText": "Visit web site",
+        "subtitle": "Corporate site"
+},
+{
+    "title": "Dtac Thailand",
+    "src": "thumb-dtac.jpg",
+    "href": "http://www.dtac.co.th/",
+    "description1": "Created fully-responsive front-end code for ecommerce site for dtac Thailand, in line with corporate style guide.",
+    "description2": "Created wireframes, HTML/CSS/JS for product listings, product details, basket, checkout & confirmation emails.",
+    "subtitle": "Ecommerce front end",
+    "linkText": "Visit web site"
+  },
+ {
+    "title": "Samsung UK",
+    "src": "thumb-samsung.jpg",
+    "href": "https://github.com/douggreenwoodlm24/s-promos",
+    "description1": "Created HTML/CSS/JS for a number of promotional pages to support product launches and campaigns for Samsung UK.",
+    "description2": "Techniques included parallax scrolling animations, SVG graphics, CSS grid and product selection filters.",
+    "subtitle": "Homepage promotions",
+    "linkText": "View files on Github"
+  },
+{
+    "title": "DataSelect",
+    "src": "thumb-dataselect.jpg",
+    "href": "http://www.dsgweb.co.uk/portfolio/dataselect/index.html",
+    "description1": "Planned & developed new B2B sales dashboard for Data Select, including graphs & chart plugins and product pages.",
+    "description2": "Created wireframes, HTML/CSS/JS and integrated data from a back-end API to display sales data via chart.js.",
+    "subtitle": "B2B Sales Dashboard",
+    "linkText": "View replica pages"
+  },
+ {
+    "title": "Feedback Ferret",
+    "src": "thumb-feedbackferret.jpg",
+    "href": "https://www.feedbackferret.com/",
+    "description1": "Developed browser application using Vue.js, Vue CLI, Vuetify, Sass, i18n, NPM & Git that allows companies to respond to their customers' online survey reviews.",
+    "description2": "Created Vue components that could create, read, update and delete data from a REST API. Produced responsive wireframes for the entire UI.",
+    "subtitle": "",
+    "linkText": "Visit company web site"
+  },
+ {
+    "title": "Avid Technology",
+    "src": "thumb-avid.jpg",
+    "href": "https://www.avid.com/",
+    "description1": "Provided front-end web design, development and production, including wireframing, prototyping, page & graphic creation, stylesheets and cross-browser testing.",
+    "description2": "Managed multiple web projects (including product launches and brand consolidation), responsible for implementation, testing and delivery.",
+    "subtitle": "Corporate web sites",
+    "linkText": "Visit company web site"
+  },
+ {
+    "title": "Brandpath",
+    "src": "thumb-whitelabel.jpg",
+    "href": "https://github.com/douggreenwoodlm24/wireframes",
+    "description1": "Created responsive white-label web sites for integration with two of Brandpath’s off-the-shelf ecommerce solutions.",
+    "description2": "Organised CSS using LESS to be customisable for roll-out to different clients, reducing future development time.",
+    "subtitle": "White label ecommerce sites",
+    "linkText": "View files on Github"
+  }
+]
