@@ -1,0 +1,14 @@
+[
+    { 
+    "title": "Coding and development",
+    "items": ["HTML5","CSS3, Sass/SCSS & LESS","JavaScript, ES6 & jQuery","React, create-react-app, Redux & Hooks","Vue.js, Vue CLI, Vuex & Vuetify, i18n","Webpack, Node & NPM","Material UI & Bootstrap"]
+    },
+    { 
+    "title": "Web site planning",
+    "items": ["Wireframing (Adobe XD, Balsamiq)","Usability and User Experience","W3C Standards","Accessibility (WAI-ARIA)"]
+    },
+    { 
+    "title": "Other",
+    "items": ["AWS (DynamoDB, Lambda & API Gateway)","REST API (Axios)","Git, Gitbash & Github","Photoshop & GIMP","Agile projects (Jira, Redmine)"]
+    }
+]

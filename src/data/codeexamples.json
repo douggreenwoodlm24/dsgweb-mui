@@ -1,0 +1,36 @@
+[{
+    "title": "React & Firebase meeting registration application",
+    "description": "A React application (using create-react-app and a Firebase REST API) that allows users to create logins, meetings, and add/remove attendees.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/react-spa",
+    "hrefDemo": "http://www.dsgweb.co.uk/code/reactspa/"
+},{
+    "title": "Angular search application",
+    "description": "An Angular application I developed (after completing a Lynda.com course) that allows the user to search Formula One drivers racing in 2018.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/f1info",
+    "hrefDemo": "http://dsgweb.co.uk/code/f1info/f1info/"
+},{
+    "title": "Vue.js and Firebase API application",
+    "description": "Firebase API that builds a Vue note application.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/firebase-api-note-app",
+    "hrefDemo": ""
+},{
+    "title": "Vue.js Express application",
+    "description": "A Vue app using Express to integrate a back-end API.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/vue-api",
+    "hrefDemo": ""
+},{
+    "title": "Vanilla JavaScript product listing",
+    "description": "A simple product list and basket page (pulling in data from an external JSON) I developed in 1.5 days for an exercise for a job interview.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/exercise_ui",
+    "hrefDemo": ""
+},{
+    "title": "Angular media list application",
+    "description": "An Angular application I developed (after completing a Lynda.com course) that allows the user to compile a list of TV programmes and films.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/angularmedialist",
+    "hrefDemo": "http://dsgweb.co.uk/code/medialist/medialist/all"
+},{
+    "title": "CSS Flexbox",
+    "description": "A simple experiment with changeable page layouts using CSS flexbox.",
+    "hrefGithub": "https://github.com/douggreenwoodlm24/cssflexbox",
+    "hrefDemo": "http://dsgweb.co.uk/code/cssflexbox/index.html"
+}]
