@@ -2,7 +2,9 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import CodeExamples from "../components/CodeExamples";
+import Container from "@mui/material/Container";
 import Footer from "../components/Footer";
+import Grid from "@mui/material/Grid";
 import Intro from "../components/Intro";
 import NavAppBar from "../components/NavAppBar";
 import Portfolio from "../components/Portfolio";
@@ -72,30 +74,36 @@ function DarkModeToggle() {
   const theme = useTheme();
   const colorMode = React.useContext(ColorModeContext);
   return (
-    <Box
-      sx={{
-        display: "flex",
-        width: "100%",
-        alignItems: "center",
-        justifyContent: "center",
-        bgcolor: "background.default",
-        color: "text.primary",
-        borderRadius: 1,
-        p: 3,
-      }}
-    >
-      <FormGroup>
-        <FormControlLabel
-          control={
-            <MaterialUISwitch
-              sx={{ m: 1 }}
-              onClick={colorMode.toggleColorMode}
-            />
-          }
-          label={`${theme.palette.mode} mode`}
-        />
-      </FormGroup>
-    </Box>
+    <Container sx={{ py: 8 }} maxWidth="lg">
+      <Grid container>
+        <Grid item sx={{ textAlign: "right" }} xs={12}>
+          <Box
+            sx={{
+              display: "flex",
+              width: "100%",
+              alignItems: "center",
+              justifyContent: "center",
+              bgcolor: "background.default",
+              color: "text.primary",
+              borderRadius: 1,
+              p: 3,
+            }}
+          >
+            <FormGroup>
+              <FormControlLabel
+                control={
+                  <MaterialUISwitch
+                    sx={{ m: 1 }}
+                    onClick={colorMode.toggleColorMode}
+                  />
+                }
+                label={`${theme.palette.mode} mode`}
+              />
+            </FormGroup>
+          </Box>
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 
@@ -123,10 +131,10 @@ export default function Home() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <DarkModeToggle />
         <CssBaseline />
         {/* App bar (top nav) /start */}
         <NavAppBar />
+        <DarkModeToggle />
         {/* App bar (top nav) /end */}
         <main>
           {/* Intro /start */}

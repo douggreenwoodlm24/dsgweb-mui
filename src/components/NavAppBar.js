@@ -89,6 +89,27 @@ export default function PersistentDrawerRight() {
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
             DSGWeb
           </Typography>
+          <div style={{ width: "100%" }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row-reverse",
+                p: 1,
+                m: 1,
+              }}
+            >
+              <Box sx={{ p: 1 }}>
+                <GitHubIcon />
+              </Box>
+              <Box sx={{ p: 1 }}>
+                <LinkedInIcon />
+              </Box>
+              <Box sx={{ p: 1 }}>About me</Box>
+              <Box sx={{ p: 1 }}>Skills &amp; experience</Box>
+              <Box sx={{ p: 1 }}>Portfolio</Box>
+              <Box sx={{ p: 1 }}>Code examples</Box>
+            </Box>
+          </div>
           <IconButton
             color="inherit"
             aria-label="open drawer"
